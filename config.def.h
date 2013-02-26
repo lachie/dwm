@@ -5,10 +5,10 @@ static const char font[]            = "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
 static const char normbordercolor[] = "#444444";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#bbbbbb";
-static const char selbordercolor[]  = "#005577";
+static const char selbordercolor[]  = "#BD4B4B";
 static const char selbgcolor[]      = "#005577";
 static const char selfgcolor[]      = "#eeeeee";
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
@@ -51,7 +51,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
-static const char *termcmd[]  = { "uxterm", NULL };
+static const char *termcmd[]  = { "urxvt", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
